@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #ebf4ff;
+}
+
+h1 {
+    text-align: center;
+}
+
+.conversor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    width: 50vh;
+    gap: 0.5rem;
+    background-color: #6994ff;
+  }
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select, button {
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+}
+
+canvas {
+    margin-top: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#result{
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+}
